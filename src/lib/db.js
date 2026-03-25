@@ -1,4 +1,4 @@
-import { PrismaClient } from "../app/generated/prisma/client";
+import { PrismaClient } from "../generated/prisma/client.js";
 
 const db = globalThis.prisma || new PrismaClient({
   log: ["query", "info", "warn", "error"],
