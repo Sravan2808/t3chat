@@ -25,7 +25,6 @@ import { useRouter } from "next/navigation";
 
 export default function UserButton({
   user,
-  onLogout,
   onSettings,
   onProfile,
   onBilling,
